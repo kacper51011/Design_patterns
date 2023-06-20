@@ -11,7 +11,7 @@ internal class Program
 
         // The expected behaviour is that singletonInstance2 will not be created (console will print "instance already exist"
         SingletonClass singletonInstance2 = SingletonClass.CreateInstance();
-        
 
+        Console.ReadLine();
     }
 }

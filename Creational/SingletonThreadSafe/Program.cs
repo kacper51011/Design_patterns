@@ -13,5 +13,6 @@ internal class Program
             SingletonThreadSafeClass singleton3 = SingletonThreadSafeClass.CreateInstance();
             SingletonThreadSafeClass singleton4 = SingletonThreadSafeClass.CreateInstance();
         }));
+        Console.ReadLine();
     }
 }

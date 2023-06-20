@@ -14,6 +14,8 @@ internal class Program
         // Adapter methodA with changed logic from MethodB coming from adaptee
         adapter.MethodA();
 
+        Console.ReadLine();
+
     }
             
 }

@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonThreadSafe", "Crea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{5FEFB352-D6B9-4CDE-80F7-98290C2DE32F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade.csproj", "{C743DC74-0E6F-4BD7-A2B3-79B9F905D3D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5FEFB352-D6B9-4CDE-80F7-98290C2DE32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEFB352-D6B9-4CDE-80F7-98290C2DE32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEFB352-D6B9-4CDE-80F7-98290C2DE32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C743DC74-0E6F-4BD7-A2B3-79B9F905D3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C743DC74-0E6F-4BD7-A2B3-79B9F905D3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C743DC74-0E6F-4BD7-A2B3-79B9F905D3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C743DC74-0E6F-4BD7-A2B3-79B9F905D3D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
