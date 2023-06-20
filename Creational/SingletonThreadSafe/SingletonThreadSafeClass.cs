@@ -25,18 +25,16 @@ namespace SingletonThreadSafe
                 //Possible only for one thread
                 lock (Instancelock)
                 { 
-                    
                     if (Instance == null)
                     {
                         Instance = new SingletonThreadSafeClass();
                         Console.WriteLine("Instance created!");
                     }
-                } 
+                }                             
+              }
                 //Critical Section End
                 //Once the thread releases the lock, the other thread allows entering into the critical section
                 //But only one thread is allowed to enter the critical section
-                //Return the Singleton Instance
-              }
             else
             {
                 Console.WriteLine("Instance already exists!");
